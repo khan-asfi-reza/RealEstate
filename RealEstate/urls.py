@@ -3,7 +3,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-from RentDay import settings
+from RealEstate import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
